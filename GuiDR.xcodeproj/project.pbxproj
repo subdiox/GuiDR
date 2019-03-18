@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C820E6F223F6C7900C1A255 /* CameraKitSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C820E6E223F6C7900C1A255 /* CameraKitSDK.framework */; };
+		4C820E73223F6EF000C1A255 /* CameraKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C820E72223F6EF000C1A255 /* CameraKitViewController.swift */; };
 		4CDCBC7A223F402900DA213B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC79223F402900DA213B /* AppDelegate.swift */; };
-		4CDCBC7C223F402900DA213B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC7B223F402900DA213B /* ViewController.swift */; };
+		4CDCBC7C223F402900DA213B /* DoubleControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC7B223F402900DA213B /* DoubleControlViewController.swift */; };
 		4CDCBC7F223F402900DA213B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCBC7D223F402900DA213B /* Main.storyboard */; };
 		4CDCBC81223F402B00DA213B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCBC80223F402B00DA213B /* Assets.xcassets */; };
 		4CDCBC84223F402B00DA213B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCBC82223F402B00DA213B /* LaunchScreen.storyboard */; };
+		4CDCBC91223F417800DA213B /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDCBC90223F417700DA213B /* ExternalAccessory.framework */; };
+		4CDCBC95223F426E00DA213B /* DoubleControlSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDCBC94223F426E00DA213B /* DoubleControlSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C820E6E223F6C7900C1A255 /* CameraKitSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CameraKitSDK.framework; path = GuiDR/CameraKitSDK.framework; sourceTree = "<group>"; };
+		4C820E70223F6D6400C1A255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C820E72223F6EF000C1A255 /* CameraKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraKitViewController.swift; sourceTree = "<group>"; };
 		4CDCBC76223F402900DA213B /* GuiDR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiDR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDCBC79223F402900DA213B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CDCBC7B223F402900DA213B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CDCBC7B223F402900DA213B /* DoubleControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleControlViewController.swift; sourceTree = "<group>"; };
 		4CDCBC7E223F402900DA213B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CDCBC80223F402B00DA213B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CDCBC83223F402B00DA213B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CDCBC85223F402B00DA213B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDCBC8B223F405F00DA213B /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		4CDCBC90223F417700DA213B /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		4CDCBC94223F426E00DA213B /* DoubleControlSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoubleControlSDK.framework; path = GuiDR/DoubleControlSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDCBC95223F426E00DA213B /* DoubleControlSDK.framework in Frameworks */,
+				4CDCBC91223F417800DA213B /* ExternalAccessory.framework in Frameworks */,
+				4C820E6F223F6C7900C1A255 /* CameraKitSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,7 @@
 			children = (
 				4CDCBC78223F402900DA213B /* GuiDR */,
 				4CDCBC77223F402900DA213B /* Products */,
+				4CDCBC8D223F40AD00DA213B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +68,35 @@
 		4CDCBC78223F402900DA213B /* GuiDR */ = {
 			isa = PBXGroup;
 			children = (
+				4CDCBC8B223F405F00DA213B /* Bridging-Header.h */,
 				4CDCBC79223F402900DA213B /* AppDelegate.swift */,
-				4CDCBC7B223F402900DA213B /* ViewController.swift */,
-				4CDCBC7D223F402900DA213B /* Main.storyboard */,
-				4CDCBC80223F402B00DA213B /* Assets.xcassets */,
-				4CDCBC82223F402B00DA213B /* LaunchScreen.storyboard */,
-				4CDCBC85223F402B00DA213B /* Info.plist */,
+				4CDCBC8C223F408B00DA213B /* resources */,
+				4CDCBC7B223F402900DA213B /* DoubleControlViewController.swift */,
+				4C820E72223F6EF000C1A255 /* CameraKitViewController.swift */,
 			);
 			path = GuiDR;
+			sourceTree = "<group>";
+		};
+		4CDCBC8C223F408B00DA213B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC85223F402B00DA213B /* Info.plist */,
+				4CDCBC7D223F402900DA213B /* Main.storyboard */,
+				4CDCBC82223F402B00DA213B /* LaunchScreen.storyboard */,
+				4CDCBC80223F402B00DA213B /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		4CDCBC8D223F40AD00DA213B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C820E70223F6D6400C1A255 /* UIKit.framework */,
+				4C820E6E223F6C7900C1A255 /* CameraKitSDK.framework */,
+				4CDCBC94223F426E00DA213B /* DoubleControlSDK.framework */,
+				4CDCBC90223F417700DA213B /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDCBC7C223F402900DA213B /* ViewController.swift in Sources */,
+				4CDCBC7C223F402900DA213B /* DoubleControlViewController.swift in Sources */,
 				4CDCBC7A223F402900DA213B /* AppDelegate.swift in Sources */,
+				4C820E73223F6EF000C1A255 /* CameraKitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +320,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HY76D57XYN;
-				INFOPLIST_FILE = GuiDR/Info.plist;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GuiDR",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/GuiDR/resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yuta.ooka.GuiDR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +345,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HY76D57XYN;
-				INFOPLIST_FILE = GuiDR/Info.plist;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GuiDR",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/GuiDR/resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yuta.ooka.GuiDR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
